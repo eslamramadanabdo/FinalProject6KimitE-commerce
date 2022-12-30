@@ -1,0 +1,37 @@
+
+
+<div class="home">
+  <h1 class="text-center text-info mt-5 p-5">UpdateTrainer Page</h1>
+  <div class="container col-6 ">
+    <form action="">
+      <div class="card bg-dark text-white">
+        <div class="card-body">
+          <div class="form-group">
+            <label for="">Trainer Name</label>
+            <input type="text" placeholder="Trainer Name" class="form-control" [(ngModel)]="trainer.tname" name="tname">
+          </div>
+
+          <div class="form-group">
+            <label for="">Trainer Image</label>
+            <input type="file" placeholder="trianer Image" class="form-control" [(ngModel)]="trainer.timage" name="timage">
+          </div>
+
+          <div class="form-group">
+            <label for="">Trainer Description</label>
+            <textarea name="tdescription" [(ngModel)]="trainer.tdescription" class="form-control" id="" cols="10"
+              rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="">Trainer Job</label>
+            <input type="text" placeholder="Trainer Job" class="form-control" [(ngModel)]="trainer.tjob"
+              name="tjob">
+          </div>
+
+        </div>
+
+        <button (click)="updateTrainer()"  class="btn btn-block w-50 btn-success mx-auto my-2">Update Trianer</button>
+      </div>
+    </form>
+  </div>
+</div>

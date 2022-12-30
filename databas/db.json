@@ -1,0 +1,56 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "cname": "Full Stack",
+      "cprice": "500",
+      "cimage": "assets/img/about.jpg",
+      "cdescription": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      "ccategoryname": "Web Development",
+      "cdname": "Antonio",
+      "cdimage": "assets/img/trainers/trainer-1.jpg",
+      "cstudentnumber": 80,
+      "cloves": 75
+    },
+    {
+      "id": 2,
+      "cname": "Search Engine Optimization",
+      "cprice": 250,
+      "cimage": "assets/img/course-2.jpg",
+      "cdescription": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      "ccategoryname": "Marketing",
+      "cdname": "Lana",
+      "cdimage": "assets/img/trainers/trainer-2.jpg",
+      "cstudentnumber": 35,
+      "cloves": 42
+    },
+    {
+      "id": 3,
+      "cname": "Copywriting",
+      "cprice": 180,
+      "cimage": "assets/img/course-3.jpg",
+      "cdescription": "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      "ccategoryname": "Content",
+      "cdname": "Brandon",
+      "cdimage": "assets/img/trainers/trainer-3.jpg",
+      "cstudentnumber": 20,
+      "cloves": 85
+    }
+  ],
+  "trainers": [
+    {
+      "tname": "Abdelrahman",
+      "timage": "C:\\fakepath\\trainer-3.jpg",
+      "tdescription": "AbdelrahmanAbdelrahmanAbdelrahmanAbdelrahmanAbdelrahmanAbdelrahman",
+      "tjob": "Front End Developer",
+      "id": 1
+    },
+    {
+      "tname": "wegweg",
+      "timage": "assets/img/trainers/trainer-2.jpg",
+      "tdescription": "erwgewgewrg",
+      "tjob": "Front End Developer",
+      "id": 2
+    }
+  ]
+}
